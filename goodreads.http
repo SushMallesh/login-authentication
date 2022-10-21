@@ -1,0 +1,22 @@
+###
+
+POST http://localhost:3000/users/
+Content-Type: application/json
+
+{   
+    "name":"Mallesh",
+    "username":"mallesh",
+    "password": "sushmallesh123",
+    "gender": "Male",
+    "location":"Shadnager"
+}
+
+
+###
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+    "username":"mallesh",
+    "password": "sushmallesh123"
+}
